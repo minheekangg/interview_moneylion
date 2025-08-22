@@ -42,8 +42,7 @@ class TestBoundingBox(unittest.TestCase):
         )
         # Box 1: (1,1)(2,2), Area = 4
         # Box 2: (5,4)(6,4), Area = 2
-        # expected_output = "(1,1)(2,2)"
-        expected_output = "(1,1)(2,33)"
+        expected_output = "(1,1)(2,2)"
         
         output = self.run_main_with_input(input_data)
         
